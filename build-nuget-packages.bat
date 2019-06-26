@@ -1,1 +1,0 @@
-nuget pack ScopedUnitOfWork/ScopedUnitOfWork.csproj -Prop Configuration=Release -IncludeReferencedProjects

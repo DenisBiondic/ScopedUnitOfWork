@@ -2,6 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>ScopedUnitOfWork is a lightweight .NET Standard implementation of Unit of Work and Repository patterns, extended with scoped functionality to improve read performance and in-built with transactions management; in respect to underlying Entity Framework Core ORM.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>2016-2019 Denis Biondic</Copyright>
+    <Authors>Denis Biondic</Authors>
+    <Company />
+    <Version>0.5.0</Version>
+    <PackageProjectUrl>https://github.com/DenisBiondic/ScopedUnitOfWork</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DenisBiondic/ScopedUnitOfWork</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageIconUrl>https://raw.githubusercontent.com/DenisBiondic/ScopedUnitOfWork/master/projectIcon64.png</PackageIconUrl>
+    <PackageTags>UnitOfWork ScopedUnitOfWork Repository Pattern EntityFramework EntityFrameworkCore net-standard</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

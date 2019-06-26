@@ -3,14 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopedUnitOfWork", "ScopedUnitOfWork\ScopedUnitOfWork.csproj", "{E6D9E1F4-B8EC-4025-80BC-4C41C45ABE54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScopedUnitOfWork", "ScopedUnitOfWork\ScopedUnitOfWork.csproj", "{E6D9E1F4-B8EC-4025-80BC-4C41C45ABE54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopedUnitOfWork.Tests", "ScopedUnitOfWork.Tests\ScopedUnitOfWork.Tests.csproj", "{6D2C0BD6-AD58-481F-9919-C4362BED3030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScopedUnitOfWork.Tests", "ScopedUnitOfWork.Tests\ScopedUnitOfWork.Tests.csproj", "{6D2C0BD6-AD58-481F-9919-C4362BED3030}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_", "_", "{2C73EA58-5C48-45FB-872F-F38DC285FB26}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		build-nuget.bat = build-nuget.bat
 		LICENSE = LICENSE
 		projectIcon64.png = projectIcon64.png
 		README.md = README.md
