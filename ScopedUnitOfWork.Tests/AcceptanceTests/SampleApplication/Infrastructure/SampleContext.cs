@@ -8,7 +8,7 @@ namespace ScopedUnitOfWork.Tests.AcceptanceTests.SampleApplication.Infrastructur
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                @"Server=localhost,1433;Database=Chinook;User=sa;Trusted_Connection=False;Password=<YourStrong!Passw0rd>");
+                @"Server=localhost,1433;Database=ScopedUnitOfWork;User=sa;Trusted_Connection=False;Password=YourStrong_Passw0rd_1");
         }
         
         protected override void OnModelCreating(ModelBuilder modelBuilder)
